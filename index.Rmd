@@ -1,0 +1,65 @@
+---
+title       : CovidTracker
+subtitle    : A real time Covid-19 Tracker for Malaysia's States
+author      : Group 16
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [mathjax, quiz, bootstrap]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+lib_cdn     : "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
+---
+
+## Introduction
+
+- Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. 
+- There are many apps and websites to view statistics for the number of cases in Malaysia.
+- However, many of them are confusing due to too many statistics and features. People that would like to know short and accurate data may have trouble looking for them.
+
+- CovidTracker is a real time Covid-19 Tracker that shows data about Covid-19 by state.
+- There is also an active cluster feature that informs you about the current cluster
+
+
+- Data is obtained from Ministry of Health Malaysia through github.
+
+- Source code for CovidTracker is available at
+- https://github.com/cl41re/covidTracker
+
+- Shiny apps is available at
+- https://muhammaddanial.shinyapps.io/project/
+
+--- .class #id
+
+## CovidTracker features
+
+- Real time
+- Plotted graphs
+- Active cluster
+- Sort Covid-19 data by state
+- New case prediction
+
+--- .class #id
+
+## Prediction
+
+- Do simple linear regression model on dataset
+- Predict based on the model
+
+--- .class #id
+
+## Key takeaways
+
+- Raise awareness by providing simple and real time data to the users
+- Given the number of cases for a week, what is the predicted number of cases for next day
+- Having a reliable data is important to ensure credibility of data 
+- It is important to do data cleaning such as filtering columns to get relevant data
+
+
+--- .class #id
+
+## Conclusion
+
+We have sucessfully created a realtime tracker for Covid-19 Malaysia. We used dataset provided by Ministry of Health Malaysia. Besides, we have plotted graphs for death and hospitalization cases. Then, we performed prediction analysis by doing regression on the dataset.
+
